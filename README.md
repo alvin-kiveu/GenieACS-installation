@@ -221,6 +221,12 @@ sudo systemctl start genieacs-ui
 sudo systemctl status genieacs-ui
 ```
 
+```bash
+ufw allow  3000/tcp
+sudo ufw reload
+```
+
+
 ### Step 4: Access GenieACS UI
 Open your web browser and navigate to `http://<your-server-ip>:3000`. You should see the GenieACS UI login page.
 Log in with the default credentials:
