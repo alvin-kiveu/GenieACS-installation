@@ -222,7 +222,8 @@ sudo systemctl status genieacs-ui
 ```
 
 ```bash
-ufw allow  3000/tcp
+ufw allow 3000/tcp
+ufw allow 7547/tcp
 sudo ufw reload
 ```
 
