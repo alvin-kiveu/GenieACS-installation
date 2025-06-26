@@ -258,11 +258,28 @@ This guide is provided under the [MIT License](https://opensource.org/license/mi
 ## Acknowledgments
 This guide is based on the official GenieACS documentation and community contributions. Special thanks to the GenieACS development team for their hard work in creating and maintaining this powerful ACS solution.
 
+Connect to the GenieACS Database
+Once installed, run:
+
+```bash
+mongosh
+```
+
+```js
+use genieacs
+
+db.dropDatabase()
+
+exit
+```
+
+
 ## Disclaimer
 This guide is provided for informational purposes only. The installation and configuration of GenieACS are done at your own risk. The author and contributors are not responsible for any damages or issues that may arise from following this guide.
 
 ## Support
 For support, you can join the [GenieACS community](https://community.genieacs.com/) or check the [GitHub issues page](
+
 
 
 Happy Networking!
